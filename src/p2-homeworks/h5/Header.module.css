@@ -1,0 +1,35 @@
+.menu {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-left: 15px;
+    left: -208px;
+    width: 245px;
+    height: 35px;
+    transition: all 0.3s ease 0s;
+}
+
+.active {
+    left: 0;
+}
+
+.item {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #9571c6;
+}
+.item:hover {
+    color: #6205f3;
+}
+
+.activeItem {
+    color: #69bfbf;
+}
+
+
+.square {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-color: #3b3a40;
+}
