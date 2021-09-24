@@ -1,0 +1,16 @@
+.wrapper {
+    margin-left: 10px;
+}
+
+.peopleWrapper {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonWrapper{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
