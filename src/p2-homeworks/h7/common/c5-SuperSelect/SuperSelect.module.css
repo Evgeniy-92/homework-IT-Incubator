@@ -1,0 +1,24 @@
+.option {
+    color: #69bfbf;
+    background: #4e1f86;
+}
+
+.option:checked {
+    background: #4e1f86;
+    color: #69bfbf;
+}
+
+.select {
+    width: 100px;
+    padding: 5px;
+    padding-right: 30px;
+    cursor: pointer;
+    background-color: #4e1f86;
+    border: 2px solid #8d8dc1;
+    color: #69bfbf;
+}
+
+.select:focus {
+    outline: none;
+    border: 2px solid #8d8dc1;
+}
