@@ -1,7 +1,24 @@
 .default {
+    background-color: #7b51b3;
+    border: 2px solid #542679;
+    color: #d6cdd9;
+    cursor: pointer;
+    border-radius: 5px;
+    height: 25px;
+}
 
+.default:hover {
+    background-color: #592f7d;
+    transition: all 0.3s ease 0s;
 }
 
 .red {
-    background: red;
+    background: #d71d1d;
+    border: 2px solid #790202;
+    color: #d6cdd9;
+    cursor: pointer;
+}
+.red:hover {
+    background: #9e1515;
+    transition: all 0.3s ease 0s;
 }

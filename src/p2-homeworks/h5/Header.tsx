@@ -17,7 +17,7 @@ function Header() {
             <NavLink className={s.item} activeClassName={s.activeItem} to={'/pre-Junior'}>pre-junior</NavLink>
             <NavLink className={s.item} activeClassName={s.activeItem} to={'/junior'}>junior</NavLink>
             <NavLink className={s.item} activeClassName={s.activeItem} to={'/junior+'}>junior+</NavLink>
-            <span className={s.square} onMouseOver={activeMenu}></span>
+            <span className={s.square} onClick={activeMenu}></span>
         </div>
     )
 }

@@ -1,12 +1,13 @@
 .menu {
     display: flex;
+    justify-content: space-around;
     align-items: center;
     position: relative;
-    margin-left: 15px;
     left: -208px;
-    width: 245px;
-    height: 35px;
+    width: 260px;
+    height: 50px;
     transition: all 0.3s ease 0s;
+    cursor: pointer;
 }
 
 .active {
@@ -14,9 +15,8 @@
 }
 
 .item {
-    margin-right: 15px;
     text-decoration: none;
-    color: #9571c6;
+    color: #7b51b3;
 }
 .item:hover {
     color: #6205f3;
@@ -31,5 +31,9 @@
     display: inline-block;
     width: 35px;
     height: 35px;
-    background-color: #3b3a40;
+    background-color: #7b51b3;
+}
+.square:hover {
+    background-color: #592f7d;
+    transition: all 0.3s ease 0s;
 }

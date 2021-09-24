@@ -1,10 +1,10 @@
 .option {
     color: #69bfbf;
-    background: #4e1f86;
+    background: #7b51b3;
 }
 
 .option:checked {
-    background: #4e1f86;
+    background: #7b51b3;
     color: #69bfbf;
 }
 
@@ -13,7 +13,7 @@
     padding: 5px;
     padding-right: 30px;
     cursor: pointer;
-    background-color: #4e1f86;
+    background-color: #7b51b3;
     border: 2px solid #8d8dc1;
     color: #69bfbf;
 }
