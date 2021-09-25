@@ -3,9 +3,12 @@
 }
 
 .timeBlock {
-    width: 100px;
+    width: 125px;
     font-size: 25px;
     text-align: center;
+    color: #7b51b3;
+    font-family: "Arial Black";
+
 }
 
 .timeMargin {
@@ -13,13 +16,17 @@
 }
 
 .dateBlock {
-    width: 100px;
+    width: 125px;
     text-align: center;
     height: 25px;
+    font-family: "Arial Black";
+    color: #7b51b3;
+
+
 }
 
 .buttonBlock {
-    width: 100px;
+    width: 125px;
     display: flex;
     justify-content: space-between;
 }

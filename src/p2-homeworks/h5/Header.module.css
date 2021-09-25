@@ -16,14 +16,15 @@
 
 .item {
     text-decoration: none;
-    color: #7b51b3;
+    color: #7c56af;
 }
 .item:hover {
     color: #6205f3;
 }
 
 .activeItem {
-    color: #69bfbf;
+    color: #592f7d;
+    font-weight: 700;
 }
 
 

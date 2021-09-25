@@ -38,12 +38,14 @@ function HW8() {
 
 
     return (
-        <div className={s.wrapper}>
+        <div>
             <hr/>
             homeworks 8
 
             {/*should work (должно работать)*/}
-            {finalPeople}
+            <div style={{marginLeft: '10px'}}>
+                {finalPeople}
+            </div>
             <div className={s.buttonWrapper}>
                 <SuperButton onClick={sortUp}>sort up</SuperButton>
                 <SuperButton onClick={sortDown}>sort down</SuperButton>
