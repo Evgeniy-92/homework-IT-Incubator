@@ -3,28 +3,41 @@ import SuperRange from './common/c7-SuperRange/SuperRange'
 import SuperDoubleRange from './common/c8-SuperDoubleRange/SuperDoubleRange'
 
 function HW11() {
-    const [value1, setValue1] = useState(0)
-    const [value2, setValue2] = useState(100)
+    const [value, setValue] = useState<[number, number]>([0, 100])
+
+    const onChangeRange = (newValue: number) => {
+        setValue([newValue, value[1]])
+    }
+
+    const onHandleChange = (newValue: number | number[]) => {
+        setValue(newValue as [number, number]);
+    };
+
+    const spanStyle = {
+        display: 'inline-block',
+        width: '30px',
+        marginLeft: '10px'
+    }
 
     return (
         <div>
             <hr/>
             homeworks 11
-
-            {/*should work (должно работать)*/}
             <div>
-                <span>{value1}</span>
+                <span style={spanStyle}>{value[0]}</span>
                 <SuperRange
-                    // сделать так чтоб value1 изменялось
+                    onChangeRange={onChangeRange}
+                    value={value[0]}
                 />
             </div>
 
             <div>
-                <span>{value1}</span>
+                <span style={spanStyle}>{value[0]}</span>
                 <SuperDoubleRange
-                    // сделать так чтоб value1 и value2 изменялось
+                    value={value}
+                    onHandleChange={onHandleChange}
                 />
-                <span>{value2}</span>
+                <span style={spanStyle}>{value[1]}</span>
             </div>
 
             <hr/>

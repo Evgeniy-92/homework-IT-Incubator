@@ -8,6 +8,7 @@ export type UserType = {
     name: string
 }
 
+
 // уровень работы с глобальными данными
 function HW3() {
     const [users, setUsers] = useState<Array<UserType>>([])
