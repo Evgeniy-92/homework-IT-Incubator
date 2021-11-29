@@ -22,29 +22,28 @@ function HW11() {
     return (
         <div>
             <hr/>
-            homeworks 11
-            <div>
-                <span style={spanStyle}>{value[0]}</span>
-                <SuperRange
-                    onChangeRange={onChangeRange}
-                    value={value[0]}
-                />
-            </div>
+            <div style={{paddingLeft: '15px'}}>
+                homeworks 11
+                <div>
+                    <span style={spanStyle}>{value[0]}</span>
+                    <SuperRange
+                        onChangeRange={onChangeRange}
+                        value={value[0]}
+                    />
+                </div>
 
-            <div>
-                <span style={spanStyle}>{value[0]}</span>
-                <SuperDoubleRange
-                    value={value}
-                    onHandleChange={onHandleChange}
-                />
-                <span style={spanStyle}>{value[1]}</span>
+                <div>
+                    <span style={spanStyle}>{value[0]}</span>
+                    <SuperDoubleRange
+                        value={value}
+                        onHandleChange={onHandleChange}
+                    />
+                    <span style={spanStyle}>{value[1]}</span>
+                </div>
             </div>
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativeSuperRange/>*/}
-            {/*<AlternativeSuperDoubleRange/>*/}
-            <hr/>
+
         </div>
     )
 }

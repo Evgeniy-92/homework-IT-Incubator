@@ -40,22 +40,22 @@ function HW8() {
     return (
         <div>
             <hr/>
-            homeworks 8
+            <div style={{paddingLeft: '15px'}}>
+                homeworks 8
 
-            {/*should work (должно работать)*/}
-            <div style={{marginLeft: '10px'}}>
-                {finalPeople}
-            </div>
-            <div className={s.buttonWrapper}>
-                <SuperButton onClick={sortUp}>sort up</SuperButton>
-                <SuperButton onClick={sortDown}>sort down</SuperButton>
-                <SuperButton onClick={check}> check 18</SuperButton>
+                {/*should work (должно работать)*/}
+                <div style={{marginLeft: '10px'}}>
+                    {finalPeople}
+                </div>
+                <div className={s.buttonWrapper}>
+                    <SuperButton onClick={sortUp}>sort up</SuperButton>
+                    <SuperButton onClick={sortDown}>sort down</SuperButton>
+                    <SuperButton onClick={check}> check 18</SuperButton>
+                </div>
             </div>
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<AlternativePeople/>*/}
-            <hr/>
+
         </div>
     )
 }

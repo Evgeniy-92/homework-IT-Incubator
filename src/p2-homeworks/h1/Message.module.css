@@ -1,15 +1,14 @@
 .messageWrapper {
     display: flex;
     align-items: flex-end;
-    gap: 15px;
     margin-bottom: 20px;
     margin-left: 15px;
 }
 
 .message {
-    background-color: #3b3a40;
+    background-color: #2b2b2c;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 10px 10px 10px 0;
     max-width: 400px;
     position: relative;
 }
@@ -33,25 +32,12 @@
 
 .textMessage {
     padding-bottom: 10px;
+    word-wrap: break-word;
 }
 
-.message::before {
-    content: "";
-    position: absolute;
-    top:55px;
-    left: -11px;
-    width: 19px;
-    height: 17px;
-    background-color: #3b3a40;
-}
-
-.message::after {
-    content: "";
-    position: absolute;
-    top: 55px;
-    left: -11px;
-    width: 11px;
+.angle {
+    width: 15px;
     height: 15px;
-    background-color: #b0a6cd;
-    border-bottom-right-radius: 20px;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgb(43, 43, 44) 0);
 }
+

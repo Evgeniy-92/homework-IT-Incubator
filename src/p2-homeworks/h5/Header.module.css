@@ -18,6 +18,9 @@
     text-decoration: none;
     color: #7c56af;
 }
+.itemWhite {
+    color: aliceblue;
+}
 .item:hover {
     color: #6205f3;
 }

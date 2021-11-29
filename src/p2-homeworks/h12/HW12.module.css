@@ -1,23 +1,20 @@
 .dark {
     background: dimgrey;
-}
-
-.dark-text {
     color: aliceblue;
 }
 
 .red {
     background: lightcoral;
-}
-
-.red-text {
     color: aqua;
 }
 
 .some {
     background: lightgreen;
-}
-
-.some-text {
     color: darkslateblue;
 }
+
+.purple {
+    background: #b0a6cd;
+    color: #504a4a;
+}
+

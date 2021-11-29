@@ -20,25 +20,24 @@ function HW10() {
     return (
         <div>
             <hr/>
-            homeworks 10
+            <div style={{paddingLeft: '15px'}}>
+                homeworks 10
 
-            {/*should work (должно работать)*/}
-            {loading.loadingValue
-                ? (
-                    <div className={s.load}>
-                        <div className={s.ring}></div>
-                    </div>
-                ) : (
-                    <div className={s.buttonWrapper}>
-                        <SuperButton onClick={setLoading}>set loading...</SuperButton>
-                    </div>
-                )
-            }
+                {loading.loadingValue
+                    ? (
+                        <div className={s.load}>
+                            <div className={s.ring}></div>
+                        </div>
+                    ) : (
+                        <div className={s.buttonWrapper}>
+                            <SuperButton onClick={setLoading}>set loading...</SuperButton>
+                        </div>
+                    )
+                }
+            </div>
 
             <hr/>
-            {/*для личного творчества, могу проверить*/}
-            {/*<Alternative/>*/}
-            <hr/>
+
         </div>
     )
 }
